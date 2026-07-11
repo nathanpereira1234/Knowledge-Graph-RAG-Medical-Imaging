@@ -1,0 +1,36 @@
+# Data & artifacts (never commit)
+data/raw/
+data/processed/
+data/*.zip
+data/*.tar.gz
+artifacts/
+*.faiss
+*.index
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Env
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+wandb/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
