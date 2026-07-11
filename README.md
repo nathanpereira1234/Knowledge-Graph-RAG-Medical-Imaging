@@ -45,7 +45,7 @@ KG-MMRAG grounds medical visual question answering in two complementary retrieva
 
 ![Open vs closed](open_vs_closed.png)
 
-Full metrics, CIs, and per-comparison significance: [`results/metrics.json`](https://github.com/nathanpereira1234/Knowledge-Graph-RAG-Medical-Imaging/blob/main/metrics.json)
+Full metrics, CIs, and per-comparison significance: [`metrics.json`](metrics.json)
 
 ---
 
