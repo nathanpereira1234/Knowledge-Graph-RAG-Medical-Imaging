@@ -41,11 +41,11 @@ KG-MMRAG grounds medical visual question answering in two complementary retrieva
 | KG only | 46.72 | 52.86 | 78.21 |
 | **Full** | **53.28** | **61.12** | 80.77 |
 
-![Ablation](results/figures/ablation_em.png)
+![Ablation](ablation_em.png)
 
-![Open vs closed](results/figures/open_vs_closed.png)
+![Open vs closed](open_vs_closed.png)
 
-Full metrics, CIs, and per-comparison significance: [`results/metrics.json`](results/metrics.json)
+Full metrics, CIs, and per-comparison significance: [`results/metrics.json`](https://github.com/nathanpereira1234/Knowledge-Graph-RAG-Medical-Imaging/blob/main/metrics.json)
 
 ---
 
@@ -72,7 +72,7 @@ That reading is wrong. It is a selection effect:
 | KG hit | 87 | 43.7 | 51.7 | **+8.0** |
 | KG miss | 113 | 70.8 | 73.5 | +2.7 |
 
-![KG hit subgroup](results/figures/kg_hit_subgroup.png)
+![KG hit subgroup](kg_hit_subgroup.png)
 
 KG-hit questions are *intrinsically harder* — baseline scores 43.7 on them versus 70.8 on the miss set, and 66% of them are OPEN. The graph fires precisely on the questions the model was already failing. Measured against the correct paired baseline, the KG lift on its target subgroup is **three times larger** (+8.0 vs +2.7 points). Absolute per-subgroup scores are the wrong comparison; the paired delta is the right one.
 
